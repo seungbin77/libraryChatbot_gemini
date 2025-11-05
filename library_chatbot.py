@@ -167,7 +167,7 @@ conversational_rag_chain = RunnableWithMessageHistory(
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", 
-                                     "content": "국립부경대 도서관 규정에 대해 무엇이든 물어보세요!!!!!"}]
+                                     "content": "안전한 바다여행에 대하여 궁금한 점을 물어보세요!!!!!"}]
 
 for msg in chat_history.messages:
     st.chat_message(msg.type).write(msg.content)
