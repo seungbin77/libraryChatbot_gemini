@@ -27,7 +27,6 @@ from langchain_community.chat_message_histories.streamlit import StreamlitChatMe
 
 # 🔥 최신 Chroma Settings 사용 (dict 절대 사용 X)
 from langchain_chroma import Chroma, Settings
-pip install --upgrade langchain-chroma chromadb
 
 # ================================
 # 2. Google Gemini API Key
